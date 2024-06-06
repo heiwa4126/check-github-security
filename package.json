@@ -1,0 +1,16 @@
+{
+	"name": "check-github-security",
+	"version": "1.0.0",
+	"description": "This project is designed to test and validate the functionality of GitHub's security features, including Code scanning, Secret scanning, and Dependabot. The primary objective is to ensure that these features are properly configured and effectively identifying potential vulnerabilities, exposed secrets, and outdated dependencies within the project's codebase.",
+	"main": "src/index.js",
+	"scripts": {
+    "start": "node src/index.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "MIT",
+	"dependencies": {
+		"express": "4.16.0"
+	}
+}
