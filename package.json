@@ -3,16 +3,23 @@
 	"version": "1.0.0",
 	"description": "This project is designed to test and validate the functionality of GitHub's security features, including Code scanning, Secret scanning, and Dependabot. The primary objective is to ensure that these features are properly configured and effectively identifying potential vulnerabilities, exposed secrets, and outdated dependencies within the project's codebase.",
 	"main": "src/index.js",
-	"keywords": ["demo", "insecure"],
+	"keywords": [
+		"demo",
+		"insecure"
+	],
 	"author": "me",
 	"license": "MIT",
 	"scripts": {
 		"start": "node src/server.js",
-		"test": "jest"
+		"test": "jest",
+		"ex1": "curl 127.0.0.1:3000",
+		"ex2": "curl '127.0.0.1:3000?comment=hello'"
 	},
 	"jest": {
 		"testEnvironment": "node",
-		"coveragePathIgnorePatterns": ["/node_modules/"]
+		"coveragePathIgnorePatterns": [
+			"/node_modules/"
+		]
 	},
 	"dependencies": {
 		"express": "4.16.0"
