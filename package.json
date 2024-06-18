@@ -10,7 +10,7 @@
 	"author": "me",
 	"license": "MIT",
 	"scripts": {
-		"start": "node src/server.js",
+		"start": "node --watch src/server.js",
 		"test": "jest",
 		"ex1": "curl 127.0.0.1:3000",
 		"ex2": "curl '127.0.0.1:3000?comment=hello'"
