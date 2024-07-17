@@ -10,7 +10,7 @@
 		"start": "node --watch src/server.js",
 		"test": "jest",
 		"ex1": "curl 127.0.0.1:3000",
-		"ex2": "curl '127.0.0.1:3000?comment=hello'",
+		"ex2": "curl \"127.0.0.1:3000?comment=hello\"",
 		"format": "biome format --write .",
 		"lint": "biome lint .",
 		"check": "biome check --apply ."
