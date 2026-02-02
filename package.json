@@ -24,7 +24,7 @@
 		"express": "5.2.1"
 	},
 	"devDependencies": {
-		"@biomejs/biome": "^1.9.4",
+		"@biomejs/biome": "^2.3.13",
 		"jest": "^29.7.0",
 		"supertest": "^7.0.0"
 	}
