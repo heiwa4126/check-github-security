@@ -5,6 +5,8 @@ GitHub の Code scanning​ と Secret scanning​ と Dependbot が有効かテ
 [Express](https://expressjs.com/) で XSS のあるコードを書き、
 なおかつ脆弱性のある古いバージョンを使っている。
 
+→ 修正してしまったので、脆弱性がある版は tag:insecure で取得してください
+
 ## インストールとテスト
 
 ```sh
